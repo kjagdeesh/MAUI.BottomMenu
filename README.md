@@ -1,6 +1,13 @@
-# BottomNavigationBar 
+# 📱 MAUI Bottom Menu Styles (Android & iOS) 
 
-A custom, fully stylable bottom navigation bar control for .NET MAUI applications.
+A cross-platform .NET MAUI sample project showcasing multiple customizable bottom navigation menu styles tailored for both Android and iOS platforms. This project demonstrates how to create and switch between various bottom menu designs using reusable components, MVVM architecture, and platform-specific enhancements.
+
+---
+
+## ✨ Features
+- 🎨 Fully customizable menu items: icons, labels, active state, colors.
+- 🔄 Dynamic navigation between tabs using MVVM pattern.
+- 🧱 Component-based architecture for easy reuse and extension.
 
 ---
 
@@ -212,3 +219,5 @@ MenuItems1 = new ObservableCollection<BottomNavigationBar.MenuItem>
 };
 ```
 <img src="https://github.com/kjagdeesh/MAUI.BottomMenu/blob/master/images/1.png" width=600/><br><br>
+
+`**Note: To explore the different menu styles, check out the images in the Images folder.**`
