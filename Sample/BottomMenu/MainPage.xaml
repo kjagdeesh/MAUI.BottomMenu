@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:shapes="clr-namespace:Microsoft.Maui.Controls.Shapes;assembly=Microsoft.Maui.Controls"
+             Padding="0"
+             x:Class="BottomMenu.MainPage">
+
+
+    <VerticalStackLayout Padding="25">
+        <Label Text="Bottom Menu Style-1 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-2 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-3 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-4 - Using Font Awesome icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_4" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-5 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_5" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-6 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_6" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-7 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_7" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-8 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_8" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-9 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_9" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-10 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_10" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-11 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_11" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-12 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_12" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Bottom Menu Style-13 - Using Image icons" TextDecorations="Underline" TextColor="Blue" Margin="0,0,0,20">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_13" NumberOfTapsRequired="1"/>
+            </Label.GestureRecognizers>
+        </Label>
+
+    </VerticalStackLayout>
+    
+</ContentPage>

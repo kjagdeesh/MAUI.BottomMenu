@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BottomMenu.Views.BottomMenuSix"
+             Title="Menu Style - 6"
+             xmlns:ctrls="clr-namespace:BottomMenu.Controls"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             BackgroundColor="#f9c545"         
+             NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False">
+
+    <Grid RowDefinitions="*,Auto">
+
+        <HorizontalStackLayout Margin="20,20,0,0" HorizontalOptions="Start" VerticalOptions="Start">
+            <Image Source="back" WidthRequest="35" HeightRequest="35">
+                <Image.Behaviors>
+                    <toolkit:IconTintColorBehavior TintColor="#1C2541" />
+                </Image.Behaviors>
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding NavigatePreviousPage}" NumberOfTapsRequired="1"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <Label Text="Menu Style - 6" FontSize="20" FontAttributes="Bold" VerticalOptions="Center" Margin="20,0,0,0" TextColor="#1C2541"/>
+        </HorizontalStackLayout>
+        
+        <Frame BorderColor="#0B132B" BackgroundColor="#1C2541" VerticalOptions="Center" Margin="15">
+            <Label x:Name="codeSnippet" HorizontalOptions="StartAndExpand" FontSize="12" VerticalOptions="Center" FontFamily="MonoSpace" TextColor="White"/>
+        </Frame>
+
+        <ctrls:BottomNavigationBar
+            Grid.Row="1"
+            BarHeight="70"
+            IconHeight="70"
+            SelectedItemOffset="10"
+            NotchDepthFactor="1.1"
+            IsSelectedItemRequiredExtraSpace="True"
+            SelectedItemBorderColor="Transparent"
+            BarBackgroundColor="White"
+            SelectedItemBackgroundColor="Transparent"
+            UnselectedIconColor="#3d4455"
+            SelectedIconColor="#f9c545"
+            BarCornerRadius="20,20,0,0"
+            IsShowDot="True"
+            DotColor="#f9c545"
+            ExtraSpaceColor = "White"
+            ItemsSource="{Binding MenuItems1}"
+            SelectedIndex="{Binding SelectedTabIndex, Mode=TwoWay}" />
+    </Grid>
+    
+</ContentPage>

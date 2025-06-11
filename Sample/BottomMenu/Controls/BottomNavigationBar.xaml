@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BottomMenu.Controls.BottomNavigationBar"
+             xmlns:shapes="clr-namespace:Microsoft.Maui.Controls.Shapes;assembly=Microsoft.Maui.Controls"
+            x:Name="Self"
+    HeightRequest="{Binding BarHeight, Source={x:Reference Self}}"
+Padding="0"
+             Margin="0"
+            HorizontalOptions="FillAndExpand"
+    VerticalOptions="End">
+
+    <Grid>
+        <!-- 1) The solid bar background -->
+        <BoxView
+            Color="{Binding BarBackgroundColor, Source={x:Reference Self}}"
+            HeightRequest="{Binding BarHeight, Source={x:Reference Self}}"
+            CornerRadius="{Binding BarCornerRadius, Source={x:Reference Self}}"
+            Margin="{Binding BarMargin, Source={x:Reference Self}}"
+            HorizontalOptions="FillAndExpand"
+            BackgroundColor="Transparent"
+            VerticalOptions="Fill"/>
+
+        <!-- 2) The icons overlay -->
+        <Grid
+            x:Name="ItemsGrid"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Fill"
+            Padding="0" />
+        </Grid>
+
+</ContentView>
