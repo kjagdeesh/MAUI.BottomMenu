@@ -220,4 +220,4 @@ MenuItems1 = new ObservableCollection<BottomNavigationBar.MenuItem>
 ```
 <img src="https://github.com/kjagdeesh/MAUI.BottomMenu/blob/master/images/1.png" width=600/><br><br>
 
-`**Note: To explore the different menu styles, check out the images in the Images folder.**`
+##### `Note: To explore the different menu styles, check out the images in the Images folder.`
